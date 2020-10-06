@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
-int main()
+void Saludar()
 {
 	cout<<"Hola GIT"<<endl;
+}
+int main()
+{
+	Saludar();
 	return 0;
 }
 
